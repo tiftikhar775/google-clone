@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="../css/style.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced Search</title>
+  </head>
+  <body>
+    <div class="searchbaradv">
+      <p class="searchbartxt1">all these words:</p>
+      <form method="get" action="https://www.google.com/search" autocomplete="off">
+        <input type="text" name="as_q" />
+      </form>
+      &nbsp;
+      <p class="searchbartxt2">this exact word or phrase:</p>
+      <form action="https://www.google.com/search" autocomplete="off">
+        <input type="text" name="as_epq" />
+      </form>
+      &nbsp;
+      <p class="searchbartxt3">any of these words:</p>
+      <form action="https://www.google.com/search" autocomplete="off">
+        <input type="text" name="as_oq" />
+      </form>
+      &nbsp;
+      <p class="searchbartxt4">none of these words:</p>
+      <form action="https://www.google.com/search" autocomplete="off">
+        <input type="text" name="as_eq" />
+        <input class="advbtn" type="submit" value="Advanced Search"></input>
+      </form>
+    </div>
+    <div class="search"><a href="index.html">Google Search</a></div>
+  </body>
+</html>
